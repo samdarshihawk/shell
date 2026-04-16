@@ -1,34 +1,45 @@
-[![progress-banner](https://backend.codecrafters.io/progress/shell/212e7bd5-5389-42ea-b49f-5b2e87411c18)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+=
 
-This is a starting point for Python solutions to the
-["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
+# 🐚 Shell — Built from Scratch
 
-In this challenge, you'll build your own POSIX compliant shell that's capable of
-interpreting shell commands, running external programs and builtin commands like
-cd, pwd, echo and more. Along the way, you'll learn about shell command parsing,
-REPLs, builtin commands, and more.
+I'm building a fully functional shell **from scratch** in Python, integrated with **modern tooling** and **AI capabilities**. This goes beyond a standard POSIX shell — it's a platform for experimenting with intelligent command-line interfaces, hacking utilities, and AI-assisted workflows.
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+## Features & Vision
 
-# Passing the first stage
+- ⚙️ **POSIX-compliant core** — supports `cd`, `pwd`, `echo`, piping, redirection, and more
+- 🤖 **AI integration** — natural language command suggestions and shell assistance powered by LLMs
+- 🛠️ **Hacking tools** — built-in support for recon, enumeration, and penetration testing workflows
+- 🔁 **REPL architecture** — interactive, extensible Read-Eval-Print Loop
+- 🧱 **Built from scratch** — no shell wrappers; every component is hand-crafted in Python
 
-The entry point for your `shell` implementation is in `app/main.py`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
+## Getting Started
+
+### Prerequisites
+
+Ensure you have [`uv`](https://github.com/astral-sh/uv) installed locally.
+
+### Run the Shell
 
 ```sh
-git commit -am "pass 1st stage" # any msg
+./your_program.sh
+```
+
+The entry point is `app/main.py`.
+
+### Submit a Stage
+
+```sh
+git commit -am "your message"
 git push origin master
 ```
 
-Time to move on to the next stage!
+Test output will be streamed to your terminal via CodeCrafters.
 
-# Stage 2 & beyond
+## Roadmap
 
-Note: This section is for stages 2 and beyond.
-
-1. Ensure you have `uv` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `app/main.py`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+- [x] Basic REPL loop
+- [x] Built-in commands (`echo`, `cd`, `pwd`, `type`, `exit`)
+- [ ] Piping and redirection
+- [ ] AI command assistant (LLM-powered)
+- [ ] Integrated hacking tool shortcuts
+- [ ] Plugin/extension system
